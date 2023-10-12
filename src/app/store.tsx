@@ -1,10 +1,9 @@
 // store.ts
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer, { CounterState } from '../features/counter/counter';
-
+import { configureStore } from "@reduxjs/toolkit";
+import RoleReducer from "@/features/role/roleSlice";
 const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    role: RoleReducer,
   },
 });
 
