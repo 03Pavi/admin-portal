@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Auth = () => {
+const Router = () => {
   return (
     <div>
-      
+      Routers
     </div>
   )
 }
 
-export default Auth
+export default Router
